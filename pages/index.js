@@ -70,13 +70,13 @@ export default function Home() {
                 <button onClick={spinFrog} className="spin-button">SPIN</button>
               </div>
 
-              <div className="contract-box">CA: Launching Soon!</div>
+              <div className="contract-box">CA: DYKCPaJ5BRj2BeFKZZmLMRkiPcriopA5KJWKqaRZpump!</div>
 
               <div className="link-icons">
                 <a href="https://x.com/SpinningFrogCT" target="_blank" rel="noopener noreferrer">
                   <img src="/xlogo.png" alt="Twitter" />
                 </a>
-                <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+                <a href="https://pump.fun/coin/DYKCPaJ5BRj2BeFKZZmLMRkiPcriopA5KJWKqaRZpump" target="_blank" rel="noopener noreferrer">
                   <img src="/pflogo.png" alt="Pump.fun" />
                 </a>
                 <a href="https://x.com/rainforestpussy/status/1906254789324759392?s=46" target="_blank" rel="noopener noreferrer">
