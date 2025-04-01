@@ -1,0 +1,472 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #042c2c;
+  color: #e0ffe0;
+  overflow: hidden;
+}
+
+.fp-section {
+  background-color: #042c2c;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-intro {
+  background: linear-gradient(160deg, #042c2c 0%, #063f3f 100%);
+  padding: 3rem 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-gif {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.hero-caption {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.frog-promo-img {
+  width: 220px;
+  margin: 0 auto 1.2rem;
+}
+
+.contract-box {
+  background: #1b3c3c;
+  border-radius: 10px;
+  color: #e0ffe0;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto 2rem;
+  font-family: monospace;
+  font-size: 1rem;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.link-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.link-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+.link-icons img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  object-fit: cover;
+}
+
+.tokenomics-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tokenomics-column {
+  background-color: #1a3e3e;
+  color: #aef5ae;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.tokenomics-column img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.mute-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0,0,0,0.6);
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.hero-intro {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.spin-animation {
+  animation: rotateY 1s ease-in-out;
+}
+
+@keyframes rotateY {
+  0% { transform: rotateY(0); }
+  100% { transform: rotateY(360deg); }
+}
+
+.spin-button {
+  position: absolute;
+  bottom: -10px;
+  right: -0px;
+  background: #1a3e3e;
+  color: #aef5ae;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+.spin-button:hover {
+  background: #3ee68b;
+  color: #042c2c;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.spin-button {
+  position: relative;
+  margin: 1rem auto 0;
+  display: inline-block;
+  background: #1a3e3e;
+  color: #aef5ae;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+.spin-button:hover {
+  background: #3ee68b;
+  color: #042c2c;
+}
+
+.hero-intro {
+  height: 100dvh;
+  overflow: hidden;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-gif {
+  max-width: 360px;
+  margin: 0 auto 1rem;
+}
+
+.hero-caption {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.frog-promo-img {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.contract-box {
+  margin-bottom: 1.2rem;
+}
+
+.link-icons img {
+  width: 44px;
+  height: 44px;
+}
+
+.spin-animation {
+  animation: rotateZ 0.5s linear;
+}
+
+@keyframes rotateZ {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin-button {
+  display: inline-block;
+  margin: 0.8rem auto 1.5rem;
+  background: #1a3e3e;
+  color: #aef5ae;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+.spin-button:hover {
+  background: #3ee68b;
+  color: #042c2c;
+}
+
+.spinning-loop {
+  animation: rotateZ 1s linear infinite;
+}
+
+.spin-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.spinning-loop {
+  animation: rotateZReverse 1s linear infinite;
+}
+
+@keyframes rotateZReverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+.spin-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto 1.5rem;
+}
+
+.hero-intro {
+  height: 100dvh;
+  overflow: hidden;
+  padding: 2.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-intro {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 2rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fp-section:nth-child(1) {
+  background-color: #042f2e; /* Hero page */
+}
+
+.fp-section:nth-child(2) {
+  background-color: #063634; /* Gallery page */
+}
+
+.fp-section:nth-child(3) {
+  background-color: #08403c; /* Tokenomics page */
+}
+
+.frog-name {
+  color: #aef5ae;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.hero-intro {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frog-promo-img {
+  width: 180px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.frog-name {
+  color: #b2ffcc;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.fp-section {
+  height: 100vh !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.hero-intro {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0.5rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden !important;
+  padding: 0;
+  margin: 0;
+}
+
+#__next {
+  height: 100%;
+  overflow: hidden;
+}
+
+.fp-section {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-intro {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1rem 0.5rem !important;
+  box-sizing: border-box;
+}
+
+.frog-promo-img {
+  width: 180px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem !important;
+}
+
+.frog-promo-img {
+  width: 180px;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem !important;
+}
+
+.hero-intro {
+  height: 100vh !important;
+  padding: 0.5rem 1rem 0.5rem !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gif-preview {
+  width: 280px;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto 1rem;
+}
+
+.frog-promo-img {
+  width: 160px;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.spin-button {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+
+.tokenomics-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.token-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.token-card {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.token-card:hover {
+  transform: scale(1.03);
+}
+
+.token-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #b0ffc2;
+}
+
+.token-image {
+  width: 230px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
