@@ -38,7 +38,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Spinning Frog</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+        <title>SPINNY</title>
       </Head>
 
       <div className="mute-button" onClick={toggleMute}>
