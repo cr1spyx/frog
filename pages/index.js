@@ -72,7 +72,7 @@ export default function Home() {
               <div className="contract-box">CA: Launching Soon!</div>
 
               <div className="link-icons">
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/SpinningFrogCT" target="_blank" rel="noopener noreferrer">
                   <img src="/xlogo.png" alt="Twitter" />
                 </a>
                 <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
