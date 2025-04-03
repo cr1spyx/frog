@@ -73,10 +73,10 @@ export default function Home() {
               <div className="contract-box">CA: Coming Soon!</div>
 
               <div className="link-icons">
-                <a href="https://x.com/Spinn" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/artspinny" target="_blank" rel="noopener noreferrer">
                   <img src="/xlogo.png" alt="Twitter" />
                 </a>
-                <a href="https://pump.fun/coin/DYKCPaJ5BRj2BeFKZZmLMRkiPcriopA5KJWKqaRZpump" target="_blank" rel="noopener noreferrer">
+                <a href="https://pump.fun/coin/" target="_blank" rel="noopener noreferrer">
                   <img src="/pflogo.png" alt="Pump.fun" />
                 </a>
                 <a href="https://x.com/rainforestpussy/status/1906254789324759392?s=46" target="_blank" rel="noopener noreferrer">
