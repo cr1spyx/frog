@@ -70,7 +70,7 @@ export default function Home() {
                 <button onClick={spinFrog} className="spin-button">SPIN</button>
               </div>
 
-              <div className="contract-box">CA: Coming Soon!</div>
+              <div className="contract-box">CA: V5rLc62BxyUhniuZ2iDGL5f4g4iZW8FcEmoN7Q8pump</div>
 
               <div className="link-icons">
                 <a href="https://x.com/artspinny" target="_blank" rel="noopener noreferrer">
